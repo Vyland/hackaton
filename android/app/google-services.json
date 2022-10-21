@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663893889014",
+    "project_id": "hackaton-c1e86",
+    "storage_bucket": "hackaton-c1e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663893889014:android:d05494c72f38a8b902c1d7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1000"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663893889014-a4ra4vl7ijj9fco5phehbb013fbd7i7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAycfQHfF-v9R7RInRzOmRLQko-XVdMklg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663893889014-a4ra4vl7ijj9fco5phehbb013fbd7i7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
