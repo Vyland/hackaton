@@ -3,6 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_application_1000/main_page.dart';
 
+// ignore: unused_import
+import 'package:flutter_application_1000/newpassword.dart';
+import 'package:flutter_application_1000/sidebar/bookhistory.dart';
+import 'package:flutter_application_1000/profil.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

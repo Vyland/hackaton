@@ -13,11 +13,21 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  TextEditingController username = TextEditingController();
+  TextEditingController email = TextEditingController();
+  TextEditingController password = TextEditingController();
+  GlobalKey<FormState> formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("FREELANCER"),
+      ),
+      body: Center(
+        child: Text(
+          "Hello User!",
+          style: TextStyle(fontSize: 50),
+        ),
       ),
       drawer: Container(
         color: Colors.white,
@@ -69,13 +79,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-      ),
-      body: Column(
-        children: const [
-          SizedBox(height: 10),
-          Icon(Icons.picture_in_picture_rounded),
-          Text("Home page"),
-        ],
       ),
     );
   }

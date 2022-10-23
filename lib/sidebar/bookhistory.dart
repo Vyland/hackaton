@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class BookHistoryPage extends StatefulWidget {
   const BookHistoryPage({super.key});
@@ -14,9 +12,12 @@ class _BookHistoryPageState extends State<BookHistoryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("your Booking History"),
+        centerTitle: true,
+        title: const Text("Booking Details"),
       ),
-      body: Text("Booking History"),
+      body: Text(
+        "Looking For UI/UX Designer",
+      ),
     );
   }
 }
